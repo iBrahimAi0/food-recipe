@@ -1,0 +1,101 @@
+.details-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.details-back span {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.details-back p {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.details-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: start;
+  gap: 25px;
+  margin: 10px;
+}
+.details-main .details-image {
+  overflow: hidden;
+  border-radius: 25px;
+}
+.details-main .details-image img {
+  border-radius: 25px;
+  width: 100%;
+  transition: 0.2s linear;
+}
+.details-main .details-image img:hover {
+  transform: scale(1.1);
+}
+.details-main .detatils-title h2 {
+  font-weight: 300;
+}
+.details-main .detatils-title p {
+  font-size: 15px;
+  color: rgb(155, 155, 155);
+}
+.details-main .detatils-title .details-buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 50px;
+}
+.details-main .detatils-title .details-buttons button {
+  all: unset;
+}
+.details-main .detatils-title a {
+  background-color: #222;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.details-main .detatils-title a {
+  color: white;
+  text-decoration: none;
+}
+
+.details-main .detatils-title button:last-child {
+  color: #ffffff;
+  margin: 10px;
+  font-size: 20px;
+  background-color: #222;
+  border-radius: 50%;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+.details-main .detatils-title .heart-icon .green:hover {
+  color: green;
+  transition: linear 0.2s;
+}
+.details-main .detatils-title .heart-icon:hover {
+  color: rgb(236, 56, 56);
+  transition: linear 0.2s;
+}
+
+.details-main ul {
+  background-color: #222;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 80%;
+}
+.details-main ul .ingredients-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+.details-main ul .ingredients-item {
+  list-style: none;
+  padding: 5px;
+  color: grey;
+}

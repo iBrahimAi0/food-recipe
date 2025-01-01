@@ -1,0 +1,13 @@
+/* Css Variables */
+:root {
+  --mainColor: #3d3d3d;
+  --SecondColor: #569a30;
+  --TextColor: gray;
+  --Whity: white;
+}
+
+.App {
+  font-family: "ubuntu";
+  width: 90%;
+  margin: 0 auto;
+}

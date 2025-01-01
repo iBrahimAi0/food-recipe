@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.nav .logo {
+  padding-left: 10px;
+  color: black;
+  text-decoration: none;
+}
+.nav .nav-serach input {
+  padding: 10px;
+  border: none;
+  background-color: #f3f3f3;
+  color: #818181;
+  outline: none;
+}
+.nav .nav-serach button {
+  padding: 10px 15px;
+  outline: none;
+  background-color: var(--SecondColor);
+  color: white;
+  font-weight: 100;
+  border: none;
+  cursor: pointer;
+}
+
+.active {
+  color: var(--SecondColor) !important;
+}
+.nav .nav-items ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .nav-items ul a {
+  padding-right: 25px;
+  text-decoration: none;
+  font-weight: 400;
+  transition: 0.2s linear;
+  color: inherit;
+}
+
+.nav .nav-items ul a:hover {
+  color: var(--SecondColor);
+}

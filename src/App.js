@@ -70,9 +70,9 @@ function App() {
         <div className="App">
           <Navbar />
           <Routes>
-            <Route path="/food-recipe" element={<Home />} />
-            <Route path="/food-recipe/favorites" element={<Favorites />} />
-            <Route path="/food-recipe/details/:id" element={<Details />} />
+            <Route path="/food-recipe/" element={<Home />} />
+            <Route path="/food-recipe/favorites/" element={<Favorites />} />
+            <Route path="/food-recipe/details/:id/" element={<Details />} />
           </Routes>
           <Footer />
         </div>

@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div className="nav">
-      <NavLink to={"/"} className="logo">
+      <NavLink to={"/food-recipe"} className="logo">
         <Logo />
       </NavLink>
       <form className="nav-serach">
@@ -32,11 +32,11 @@ const Navbar = () => {
       <div className="nav-items">
         <ul>
           <li>
-            <NavLink to={"/"}>Home</NavLink>
+            <NavLink to={"/food-recipe"}>Home</NavLink>
           </li>
 
           <li>
-            <NavLink to={"/favorites"}>Favotites</NavLink>
+            <NavLink to={"/food-recipe/favorites"}>Favotites</NavLink>
           </li>
         </ul>
       </div>
